@@ -12,7 +12,7 @@ const Presentation = () => {
           Développeur Web - intégrateur.
         </p>
       </div>
-      <div className="competences-section">
+      <div id="compétences" className="competences-section">
         <h2>Compétences :</h2>
         <p>
           La formation chez OpenClassrooms a pour but de faire maîtriser les technologies

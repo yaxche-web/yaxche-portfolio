@@ -21,7 +21,7 @@ const Contact = () => {
     const requiredFields = ["name", "email", "subject", "message", "securityAnswer"];
     const isFormValid = requiredFields.every((field) => formData[field].trim() !== "");
 
-    if (!isFormValid || formData.securityAnswer.trim().toLowerCase() !== "la main") {
+    if (!isFormValid || formData.securityAnswer.trim().toLowerCase() !== "à la main") {
       alert("Please fill out all fields correctly!");
       return;
     }
@@ -43,10 +43,11 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div id="contact">
+      <h2>Contact :</h2>
       <form onSubmit={handleSubmit}>
         <label>
-          Name:
+          Nom:
           <input type="text" ref={nameRef} required />
         </label>
         <br />
@@ -56,7 +57,7 @@ const Contact = () => {
         </label>
         <br />
         <label>
-          Subject:
+          Sujet:
           <input type="text" ref={subjectRef} required />
         </label>
         <br />
@@ -66,7 +67,7 @@ const Contact = () => {
         </label>
         <br />
         <label>
-          Security Question: What is this site built with? (Answer: "la main")
+        Comment ce site a-t-il été réalisé ?
           <input type="text" ref={securityAnswerRef} required />
         </label>
         <br />

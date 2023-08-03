@@ -2,13 +2,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import Navbar from './Navbar';
-import Presentation from './Presentation';
-import Contact from './Contact';
-import Skills from './Skills';
-import Footer from './Footer';
+import Navbar from '../components/Navbar';
+import Presentation from '../components/Presentation';
+import Contact from '../components/Contact';
+import Skills from '../components/Skills';
+import Footer from '../components/Footer';
 
-const Home = () => {
+function Home() {
   return (
     <div>
       <Navbar />
