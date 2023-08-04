@@ -1,4 +1,4 @@
-// components/Skills.js
+// components/Skills.jsx
 import React from 'react';
 
 

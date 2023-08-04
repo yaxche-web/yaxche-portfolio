@@ -1,3 +1,4 @@
+// components/Contact.jsx
 import React, { useRef } from "react";
 
 const Contact = () => {
@@ -17,7 +18,7 @@ const Contact = () => {
       securityAnswer: securityAnswerRef.current.value,
     };
 
-    // Validate the form
+    // Validation du formulaire
     const requiredFields = ["name", "email", "subject", "message", "securityAnswer"];
     const isFormValid = requiredFields.every((field) => formData[field].trim() !== "");
 
@@ -26,7 +27,7 @@ const Contact = () => {
       return;
     }
 
-    // Your code to send the email goes here
+    // Code d'envoi d'e-mail
     const emailData = {
       to: "eaqmijangos@gmail.com",
       subject: formData.subject,
@@ -34,7 +35,7 @@ const Contact = () => {
     };
     console.log("Email data:", emailData);
 
-    // Clear the form
+    // Effacer le formulaire
     nameRef.current.value = "";
     emailRef.current.value = "";
     subjectRef.current.value = "";
@@ -67,7 +68,7 @@ const Contact = () => {
         </label>
         <br />
         <label>
-        Comment ce site a-t-il été réalisé ?
+        De quelle façon ce site a-t-il été réalisé ?
           <input type="text" ref={securityAnswerRef} required />
         </label>
         <br />

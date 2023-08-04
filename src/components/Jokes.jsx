@@ -1,3 +1,4 @@
+// components/Jokes.jsx
 import React, { useState } from 'react';
 import JokesData from '../data/jokes';
 

@@ -1,4 +1,4 @@
-// components/Projects.js
+// pages/Projects.js
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
