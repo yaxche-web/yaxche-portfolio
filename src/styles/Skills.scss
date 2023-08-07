@@ -1,0 +1,114 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.center-container {
+    display: flex; /* Aligner le nom et la barre sur la même ligne */
+    flex-direction: column;
+    width: 60%;    
+  }
+
+  .skill {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  
+
+  .name-skill {
+    width: 14%;
+    font-size: 1em;
+    font-weight: 500;
+    margin-right: 5px;
+    padding: 8px 12px;
+    border: 1px solid rgb(236, 236, 236);
+    background: #ffffff;
+    border-radius:20px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  }
+  
+  .bar-container {
+    flex: 2; /* Permet à la barre de compétences de s'étendre pour prendre l'espace disponible */
+    height: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #EEF0F4;
+    box-shadow: inset 3.3px 3.3px 8px #E0E2E5, inset -3.3px -3.3px 8px #FCFEFF;
+  }
+  
+  .bar {
+    width: 0;
+    height: 100%;
+    background-color: rgba(62, 153, 112, 0.288); /* Barres en vert */
+    border-radius: 5px;
+    box-shadow: 3.3px 3.3px 8px #E0E2E5, -3.3px -3.3px 8px #FCFEFF;
+    
+  }
+
+
+  
+  
+
+/* largeur inférieure à 480px */
+@media screen and (max-width: 479px) {
+  .center-container {
+   
+    width: 95%;    
+  }
+  .skill {
+    margin: 3px;
+  }
+  .name-skill {
+    margin-right: 4em;
+    border: none;
+    box-shadow: none;
+
+  }
+ 
+}
+
+/* tablette en mode portrait */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .center-container {
+   
+    width: 95%;    
+  }
+  .skill {
+    margin: 3px;
+  }
+  .name-skill {
+    margin-right: 4em;
+    border: none;
+    box-shadow: none;
+
+  }
+}
+
+/* tablette en mode paysage */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .center-container {
+   
+    width: 95%;    
+  }
+  .skill {
+    margin: 3px;
+  }
+  .name-skill {
+    margin-right: 4em;
+    border: none;
+    box-shadow: none;
+
+  }
+}
+
+/* bureau */
+@media screen and (min-width: 1024px) {
+  
+}
+  
+  
+  

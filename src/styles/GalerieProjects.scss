@@ -1,0 +1,70 @@
+/* src/styles/GalerieProjects.scss */
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .project {
+    flex: 1 0 calc(30% - 20px); /* Trois projets par ligne */
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .techno {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    
+  }
+  
+  .en-savoir-plus {
+    background-color: white;
+    border: 1px solid rgb(236, 236, 236);
+    padding: 8px 12px;
+    border-radius: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+ /* Centrer horizontalement en utilisant la marge automatique */
+    margin: 0 auto;
+    display: block; 
+  }
+  
+  
+  .more-info p {
+    text-align: justify; /* Justifier le texte à gauche et à droite */
+  }
+  
+
+/* pour l'icône GitHub */
+  .more-info a {
+    color: black; 
+    font-size: 2em; 
+    display: block; 
+    margin: 10px auto;
+    width: fit-content;
+    
+
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    
+    border: 1px solid rgb(236, 236, 236);
+    background: #ffffff;
+    border-radius: 100%;
+    box-shadow: 4.8px 4.8px 8px #E0E2E5, -4.8px -4.8px 8px #FCFEFF;
+  }
+  
+  .more-info a:hover {
+    color: rgb(62, 153, 112);
+    border: 1px solid #ffffff;
+    background: #fefeff;
+    border-radius: 100%;
+    box-shadow: inset 4.8px 4.8px 8px #E0E2E5, inset -4.8px -4.8px 8px #FCFEFF;
+  }

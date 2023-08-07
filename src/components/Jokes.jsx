@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import JokesData from '../data/jokes';
 
+import '../styles/Jokes.scss';
+
 function JokesComponent() {
   const [currentJoke, setCurrentJoke] = useState("Cliquez sur le bouton pour afficher une blague de développeur"); // hook useState pour gérer la blague actuelle : currentJoke. 
 

@@ -1,0 +1,63 @@
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+   
+   align-content: space-around;
+   gap: 40px;
+}
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Pour centrer les éléments horizontalement */
+    justify-content: space-around; /* Pour l'espacement équilibré des éléments */
+    text-align: center;
+    height: 35em; 
+}
+
+.H1fail {
+    margin: 0;
+    font-size: 14em;
+    padding: 8px 12px;
+    border: 1px solid rgb(236, 236, 236);
+    background: #ffffffaf;
+    border-radius:20px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.fail {
+    margin: 0;
+    font-size: 2em;
+    padding: 8px 12px;
+    border: 1px solid rgb(236, 236, 236);
+    background: #ffffffaf;
+    border-radius:20px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.home-link {
+    font-size: 1.5em;
+    width: 25%;
+    height: 3em;
+    text-decoration: none;
+    border: 1px solid rgb(236, 236, 236);
+    background: #ffffffaf;
+    border-radius:20px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    display: inline-block; /* Pour permettre le centrage horizontal */
+    text-align: center; /* Pour centrer le texte horizontalement */
+    margin: 0 auto; /* Pour centrer le cadre lui-même */
+    line-height: 3em; /* Pour centrer le texte verticalement */
+}
+
+
+.jokes {
+    border-radius: 5px;
+    overflow: hidden;
+    background: #f7f8fa;
+    box-shadow: inset 3.3px 3.3px 8px #E0E2E5, inset -3.3px -3.3px 8px #FCFEFF;
+    width: 40%;
+    margin: 0 auto; /* Pour centrer le cadre lui-même */
+    
+}

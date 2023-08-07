@@ -1,0 +1,61 @@
+/* Ajoutez ce style à votre fichier CSS ou votre balise <style> dans le composant React */
+.formcont {
+    width: 70%;
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+    padding: 20px; /* Espacement intérieur pour plus d'espace autour du contenu */
+    border: 1px solid #ccc; /* Ajoute une bordure pour délimiter le formulaire */
+    border-radius: 5px; /* Ajoute des coins arrondis pour une apparence plus esthétique */
+  }
+    
+  .formcont form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formcont label {
+    margin-bottom: 10px; /* Ajoute un espace entre les étiquettes et les champs de saisie */
+  }
+  
+  .formcont label,
+  .formcont input,
+  .formcont textarea {
+    width: 100%;
+    padding: 10px;
+    
+    border-radius: 5px;
+    box-sizing: border-box; /* Ajuste la largeur pour inclure le padding sans déborder */
+  }
+
+  .formcont input,
+  .formcont textarea {
+    margin-top: 10px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    background: #f3f4f6;
+    box-shadow: inset 3.3px 3.3px 8px #E0E2E5, inset -3.3px -3.3px 8px #FCFEFF;
+  }
+  
+  .formcont textarea {
+    resize: vertical; /* Empêche le redimensionnement horizontal du textarea */
+    max-height: 200px; /* Définit une hauteur maximale pour le textarea */
+  
+  }
+  
+  .formcont button {
+    font-size: 1.5em;
+    padding: 1em;
+    border: 1px solid rgb(236, 236, 236);
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 4.8px 4.8px 8px #E0E2E5, -4.8px -4.8px 8px #FCFEFF;
+    cursor: pointer;
+  }
+  
+  .formcont button:hover {
+    border-radius: 5px;
+    box-shadow: inset 4.8px 4.8px 8px #E0E2E5, inset -4.8px -4.8px 8px #FCFEFF;
+  }
+  
+  /* Ajustement de l'espace à gauche et à droite des labels */
+
+  

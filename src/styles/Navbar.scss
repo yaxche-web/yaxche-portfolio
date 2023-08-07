@@ -1,0 +1,159 @@
+
+nav {
+  position: sticky;
+  top: 0;
+  height: 20px;
+  background: #ffffff;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  z-index: 9999; 
+}
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-logo {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    color: #333;
+  }
+
+  .burger {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #333;
+  }
+
+  .right-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .right-nav.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1em;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%; /* Ajout pour occuper toute la largeur */
+  }
+  
+  .right-nav.active li {
+    margin-left: 0; /* Retirer la marge pour les liens en version mobile */
+    margin-bottom: 1em;
+  }
+  
+  .right-nav li {
+    margin-left: 1.2em;
+  }
+
+
+  .nav-link {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #333;
+    position: relative;
+    padding: 0.3em;
+  }
+
+ 
+
+/* Effet de soulignement sur le lien au survol */
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: #333;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s;
+}
+
+/* Le soulignement s'étend vers la droite lorsqu'on survole le lien */
+.nav-link:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* lecteur d’écran uniquement accessibilité */
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+
+/* largeur inférieure à 480px */
+@media screen and (max-width: 479px) {
+  .nav-logo {
+    font-size: 1em;
+  }
+  .mobile-nav {
+    width: 100%;
+  }
+
+  .burger {
+    display: block;
+    margin-left: auto;
+  }
+  .right-nav {
+    display: none;
+    position: relative; /* Pour que le menu soit visible en version desktop */
+  }
+  .right-nav.active {
+    display: flex;
+  }
+
+  
+}
+
+/* tablette en mode portrait */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .nav-logo {
+    font-size: 2em;
+    margin-right: 6.6em;
+  }
+  .mobile-nav {
+    width: 100%;
+  }
+  .burger {
+    display: block;
+  }
+  .right-nav {
+    display: none;
+    position: relative; /* Ajout pour que le menu soit visible en version desktop */
+  }
+  .right-nav.active {
+    display: flex;
+  }
+  
+}
+
+/* tablette en mode paysage */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+/* bureau */
+@media screen and (min-width: 1024px) {
+  
+}

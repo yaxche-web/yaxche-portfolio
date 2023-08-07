@@ -1,0 +1,283 @@
+/* styles.css */
+
+  .header-container {
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+  }
+
+  .h1-container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    text-align: left;
+  }
+
+  .h1-line {
+    display: block; /* Affiche les spans l'un au-dessus de l'autre */
+    margin-bottom: 0.2em; /* Espace entre chaque ligne */
+  }
+  
+  .h1-line-1 {
+    font-size: 1.2em; /* Taille du texte pour la première ligne */
+    letter-spacing: 0.1em;
+  }
+  
+  .h1-line-2 {
+    font-size: 1.2em; /* Taille du texte pour la deuxième ligne */
+    letter-spacing: 0.1em;
+  }
+  
+  .h1-line-3 {
+    font-size: 1.8em; /* Taille du texte pour la troisième ligne */
+    letter-spacing: 0.2em;
+  }
+
+  .h1-line-4 {
+    font-size: 1.8em; /* Taille du texte pour la quatrième ligne */
+    letter-spacing: 0.1em;
+  }
+  
+   /* Texte en exposant */
+   .h1-exponent {
+    font-size: 0.2em; /* Taille de police plus petite pour le texte en exposant */
+    vertical-align: super;
+
+    /* effet sur le Texte en exposant */
+    background: linear-gradient(90deg, #464646, #a7a7a7, #464646);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    animation: shine 8s linear infinite;
+  }
+
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+  
+
+  .fa-link {
+    color: rgba(62, 153, 112, 0.322);
+    padding: 0.9em;
+    border: 1px solid rgba(62, 153, 112, 0.322);
+   background: #fefeff;
+   border-radius: 100%;
+  }
+
+/* Social-links */
+
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre verticalement les éléments */
+    align-items: flex-start; /* Aligne les éléments à gauche */
+    gap: 3em;
+ }
+
+ .icon-github,
+ .icon-linkedin {
+   font-size: 5em;
+   color: rgb(128, 128, 132);
+   padding: 0.3em;
+   border: 1px solid rgb(236, 236, 236);
+   background: #ffffff;
+   border-radius: 3%;
+   box-shadow: 4.8px 4.8px 8px #E0E2E5, -4.8px -4.8px 8px #FCFEFF;
+ }
+
+
+ .icon-github:hover,
+ .icon-linkedin:hover {
+  color: rgba(62, 101, 153, 0.699);
+   border: 1px solid #ffffff;
+   background: #fefeff;
+   border-radius: 3%;
+   box-shadow: inset 4.8px 4.8px 8px #E0E2E5, inset -4.8px -4.8px 8px #FCFEFF;
+  
+ }
+
+
+
+
+ .icon-github.fa-fade {
+  --fa-animation-duration: 10s;
+  --fa-fade-opacity: 0.4;
+}
+
+.icon-linkedin.fa-fade {
+  --fa-animation-duration: 10s;
+  --fa-fade-opacity: 0.4;
+}
+
+.icon-container a {
+  margin: 0 1rem;
+}
+
+
+
+.contact-button {
+  width: 150px;
+  height: 40px;
+  margin-left: 1em;
+  padding: 0.5rem 1rem;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid rgb(236, 236, 236);
+  background: #ffffff;
+  border-radius: 3%;
+  box-shadow: 4.8px 4.8px 8px #E0E2E5, -4.8px -4.8px 8px #FCFEFF;
+
+  /* Centrer le contenu du bouton horizontalement et verticalement */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-button:hover {
+  font-size: 1.1em;
+  border: 1px solid #ffffff;
+  background: #fefeff;
+  border-radius: 3%;
+  box-shadow: inset 4.8px 4.8px 8px #E0E2E5, inset -4.8px -4.8px 8px #FCFEFF;
+}
+
+
+
+
+/* largeur inférieure à 480px */
+@media screen and (max-width: 479px) {
+  .header-container {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+
+  }
+  .h1-line {
+    margin-bottom: 0.1em; /* Espace entre chaque ligne */
+  }
+  
+  .h1-line-1 {
+    font-size: 1em; /* Taille du texte pour la première ligne */
+    
+  }
+  
+  .h1-line-2 {
+    font-size: 1em; /* Taille du texte pour la deuxième ligne */
+    
+  }
+  
+  .h1-line-3 {
+    font-size: 1em; /* Taille du texte pour la troisième ligne */
+    
+  }
+
+  .h1-line-4 {
+    font-size: 1em; /* Taille du texte pour la quatrième ligne */
+    
+  }
+
+  .social-links {
+    align-items: center;
+    gap: 2em;
+ }
+ .icon-github,
+ .icon-linkedin {
+   font-size: 4em;
+   color: rgba(62, 101, 153, 0.699);
+  
+ }
+  
+  
+}
+
+/* tablette en mode portrait */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .h1-line {
+    margin-bottom: 0.1em; /* Espace entre chaque ligne */
+  }
+  
+  .h1-line-1 {
+    font-size: 1em; /* Taille du texte pour la première ligne */
+    
+  }
+  
+  .h1-line-2 {
+    font-size: 1em; /* Taille du texte pour la deuxième ligne */
+    
+  }
+  
+  .h1-line-3 {
+    font-size: 1em; /* Taille du texte pour la troisième ligne */
+    
+  }
+
+  .h1-line-4 {
+    font-size: 1em; /* Taille du texte pour la quatrième ligne */
+    
+  }
+
+  .social-links {
+    align-items: center;
+    gap: 2em;
+ }
+ .icon-github,
+ .icon-linkedin {
+   font-size: 4em;
+   color: rgba(62, 101, 153, 0.699);
+  
+ }
+  
+}
+
+/* tablette en mode paysage */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .h1-line {
+    margin-bottom: 0.1em; /* Espace entre chaque ligne */
+  }
+  
+  .h1-line-1 {
+    font-size: 1em; /* Taille du texte pour la première ligne */
+    
+  }
+  
+  .h1-line-2 {
+    font-size: 1em; /* Taille du texte pour la deuxième ligne */
+    
+  }
+  
+  .h1-line-3 {
+    font-size: 1em; /* Taille du texte pour la troisième ligne */
+    
+  }
+
+  .h1-line-4 {
+    font-size: 1em; /* Taille du texte pour la quatrième ligne */
+    
+  }
+
+  .social-links {
+    align-items: center;
+    gap: 2em;
+ }
+ .icon-github,
+ .icon-linkedin {
+   font-size: 4em;
+   color: rgba(62, 101, 153, 0.699);
+  
+ }
+}
+
+/* bureau */
+@media screen and (min-width: 1024px) {
+  
+}

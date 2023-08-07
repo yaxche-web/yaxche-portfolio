@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    padding: 20px;
+    border-top: 1px solid #4e6b8c;
+  }
+  
+.cookie {
+    display: flex;
+
+}
+
+.cookie P {
+
+    text-align: left;
+    border: 1px solid red;
+    flex-basis: 60%;
+}
+
+.iconcookie {
+    height: 2em;
+    color: rgb(51, 46, 41);
+   
+}  

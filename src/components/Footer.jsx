@@ -1,20 +1,21 @@
 // components/Footer.jsx
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCookieBite } from "@fortawesome/free-solid-svg-icons";
+import '../styles/Footer.scss';
 
-const Footer = () => {
+function Footer() {
   return (
     <footer>
-      <p>Réalisé à la main par Yaxché - Développeur web</p>
-      <div>
-      <a href="https://github.com/Yaxche" target="_blank" rel="noopener noreferrer"> {/*  rel="noopener noreferrer" pour assurer une meilleure sécurité  */}
-          <FontAwesomeIcon icon={faGithub} /> GitHub
-        </a>
-        <a href="https://www.linkedin.com/in/yaxche-web-developpeur/" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
-        </a>
-      </div>
+      <p>&#169; Réalisé à la main par Yaxché - Développeur web</p>
+
+    <p>
+        Ce site ne propose pas de cookies ! mais si vous en voulez, cliquez sur l'icône <a href="https://www.google.com/search?q=o%C3%B9+manger+des+cookies+proche+de+chez+moi" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faCookieBite} className='iconcookie'/>
+      </a> pour trouver les meilleurs endroits où en manger près de chez vous !
+      </p>
+      
+
     </footer>
   );
 };

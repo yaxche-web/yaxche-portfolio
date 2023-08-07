@@ -1,5 +1,7 @@
 // components/Contact.jsx
 import React, { useRef } from "react";
+import '../styles/Contact.scss';
+
 
 const Contact = () => {
   const nameRef = useRef(null);
@@ -46,34 +48,43 @@ const Contact = () => {
   return (
     <div id="contact">
       <h2>Contact :</h2>
-      <form onSubmit={handleSubmit}>
-        <label>
+
+    <div className="formcont">
+    <form onSubmit={handleSubmit}>
+        <label htmlFor="name">
           Nom:
-          <input type="text" ref={nameRef} required />
+          <input type="text" id="name" ref={nameRef} required placeholder="Votre nom *" />
         </label>
         <br />
-        <label>
+        <label htmlFor="email">
           Email:
-          <input type="email" ref={emailRef} required />
+          <input type="email" id="email" ref={emailRef} required placeholder="Votre email *" />
         </label>
         <br />
-        <label>
+        <label htmlFor="subject">
           Sujet:
-          <input type="text" ref={subjectRef} required />
+          <input type="text" id="subject" ref={subjectRef} required placeholder="Sujet de votre message *" />
         </label>
         <br />
-        <label>
+        <label htmlFor="message">
           Message:
-          <textarea ref={messageRef} required />
+          <textarea id="message" ref={messageRef} required placeholder="Votre message *" />
         </label>
         <br />
-        <label>
-        De quelle façon ce site a-t-il été réalisé ?
-          <input type="text" ref={securityAnswerRef} required />
-        </label>
+        <label htmlFor="securityAnswer">
+  Pour valider ce formulaire, veuillez indiquer comment ce site a été réalisé (Réponse dans le footer).
+  <input type="text" id="securityAnswer" ref={securityAnswerRef} required placeholder="Votre réponse ici *" />
+</label>
         <br />
-        <button type="submit">Send</button>
+        <button type="submit">Envoyer</button>
       </form>
+
+    </div>
+
+
+      
+
+
     </div>
   );
 };
