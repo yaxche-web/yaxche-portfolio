@@ -11,10 +11,10 @@ function Header() {
       
       <div className="h1-container">
         <h1>
-          <span className="h1-line h1-line-1">Bonjour!</span>
-          <span className="h1-line h1-line-2">Je suis Yaxché,</span>
-          <span className="h1-line h1-line-3">Développeur </span>
-          <span className="h1-line h1-line-4">Full Stack<sup className="h1-exponent">baby junior</sup>
+          <span className="h1-line">Bonjour!</span>
+          <span className="h1-line">Je suis Yaxché,</span>
+          <span className="h1-line">Développeur </span>
+          <span className="h1-line">Full Stack<sup className="h1-exponent">baby junior</sup>
           </span>
         </h1>
       </div>
@@ -25,12 +25,13 @@ function Header() {
 
       <div className="social-links">
         <div className="icon-container">
-          <a href="https://github.com/Yaxche" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faGithub} className="icon-github fa-fade" />
-          </a>
-          <a href="https://www.linkedin.com/in/yaxche-web-developpeur/" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} className="icon-linkedin fa-fade" />
-          </a>
+        <a href="https://github.com/yaxche-web" target="_blank" rel="noopener noreferrer" aria-label="Lien vers GitHub">
+  <FontAwesomeIcon icon={faGithub} className="icon-github fa-fade" />
+</a>
+<a href="https://www.linkedin.com/in/yaxche-web-developpeur/" target="_blank" rel="noopener noreferrer" aria-label="Lien vers LinkedIn">
+  <FontAwesomeIcon icon={faLinkedin} className="icon-linkedin fa-fade" />
+</a>
+
         </div>
         <div className='callaction'>
         <a href="/#contact" className="contact-button">

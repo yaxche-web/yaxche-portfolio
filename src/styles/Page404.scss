@@ -2,7 +2,6 @@
 .page-container {
     display: flex;
     flex-direction: column;
-   
    align-content: space-around;
    gap: 40px;
 }
@@ -61,3 +60,65 @@
     margin: 0 auto; /* Pour centrer le cadre lui-même */
     
 }
+
+
+/* largeur inférieure à 480px */
+@media screen and (max-width: 479px) {
+    .H1fail {
+        font-size: 10em;
+    }
+    .home-link {
+        font-size: 1.2em;
+        width: auto;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-radius: 10px;
+    }
+    .jokes {
+        width: 90%;
+        
+    }
+  
+  }
+  
+  /* tablette en mode portrait */
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .H1fail {
+        font-size: 10em;
+    }
+    .home-link {
+        font-size: 1.2em;
+        width: auto;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-radius: 10px;
+    }
+    .jokes {
+        width: 90%;
+        
+    }
+    
+  }
+  
+  /* tablette en mode paysage */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .H1fail {
+        font-size: 10em;
+    }
+    .home-link {
+        font-size: 1.2em;
+        width: auto;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-radius: 10px;
+    }
+    .jokes {
+        width: 90%;
+        
+    }
+  }
+  
+  /* bureau */
+  @media screen and (min-width: 1024px) {
+    
+  }

@@ -34,7 +34,9 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
  /* Centrer horizontalement en utilisant la marge automatique */
     margin: 0 auto;
+    margin-top: 1em;
     display: block; 
+    cursor: pointer;
   }
   
   
@@ -68,3 +70,33 @@
     border-radius: 100%;
     box-shadow: inset 4.8px 4.8px 8px #E0E2E5, inset -4.8px -4.8px 8px #FCFEFF;
   }
+
+  
+
+/* largeur inférieure à 480px */
+@media screen and (max-width: 479px) {
+  .galerie {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}
+
+/* tablette en mode portrait */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .galerie {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+}
+
+/* tablette en mode paysage */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+/* bureau */
+@media screen and (min-width: 1024px) {
+  
+}

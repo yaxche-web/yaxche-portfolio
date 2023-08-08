@@ -19,10 +19,14 @@ function Navbar() {
       <div className="mobile-nav">
 
         <div className="logo">
-            <ul>
-                <li><Link to="/" className="nav-logo">Yax'ché</Link></li>
-                <span className="visually-hidden">aller à la page d'accueil</span>
-            </ul>
+          <ul>
+              <li>
+                  <Link to="/" className="nav-logo" aria-label="Lien vers la page d'accueil Yax'ché">
+                        Yax'ché
+                  </Link>
+              </li>
+        </ul>
+
         </div>
 
         <div className={`burger ${isMenuOpen ? 'active' : ''}`} onClick={handleBurgerClick}>
@@ -34,7 +38,6 @@ function Navbar() {
         <li><a href="/#compétences" className="nav-link">Compétences</a></li>
         <li><a href="/#contact" className="nav-link">Contact</a></li>
         <li><Link to="/projects" className="nav-link">Mes projets</Link></li>
-        <li><Link to="/Page404" className="nav-link">404</Link></li>
       </ul>
     </nav>
   );

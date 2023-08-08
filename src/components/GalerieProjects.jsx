@@ -37,6 +37,7 @@ function GalerieProjects() {
                       <p><strong>Compétences développées:</strong> {project["compétences développées"]}</p>
 
                       <p><a href={project.githubLink} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></p>
+                      
                   </div>
           )}
             </div>

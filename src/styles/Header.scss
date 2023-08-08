@@ -6,6 +6,8 @@
     justify-content: space-around;
     width: 90%;
     margin: auto;
+    margin-top: 8em;
+    margin-bottom: 8em;
   }
 
   .h1-container {
@@ -20,39 +22,32 @@
     margin-bottom: 0.2em; /* Espace entre chaque ligne */
   }
   
-  .h1-line-1 {
+  .h1-line:nth-child(1) {
     font-size: 1.2em; /* Taille du texte pour la première ligne */
     letter-spacing: 0.1em;
   }
   
-  .h1-line-2 {
+  .h1-line:nth-child(2) {
     font-size: 1.2em; /* Taille du texte pour la deuxième ligne */
     letter-spacing: 0.1em;
   }
   
-  .h1-line-3 {
+  .h1-line:nth-child(3) {
     font-size: 1.8em; /* Taille du texte pour la troisième ligne */
     letter-spacing: 0.2em;
   }
-
-  .h1-line-4 {
+  
+  .h1-line:nth-child(4) {
     font-size: 1.8em; /* Taille du texte pour la quatrième ligne */
     letter-spacing: 0.1em;
   }
+  
+  
   
    /* Texte en exposant */
    .h1-exponent {
     font-size: 0.2em; /* Taille de police plus petite pour le texte en exposant */
     vertical-align: super;
-
-    /* effet sur le Texte en exposant */
-    background: linear-gradient(90deg, #464646, #a7a7a7, #464646);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    animation: shine 8s linear infinite;
   }
 
   @keyframes shine {
@@ -160,31 +155,32 @@
     flex-direction: column;
     justify-content: center;
     row-gap: 30px;
+    margin-top: 2em;
+    margin-bottom: 2em;
 
   }
-  .h1-line {
-    margin-bottom: 0.1em; /* Espace entre chaque ligne */
-  }
-  
-  .h1-line-1 {
+   
+
+  .h1-line:nth-child(1) {
     font-size: 1em; /* Taille du texte pour la première ligne */
     
   }
   
-  .h1-line-2 {
-    font-size: 1em; /* Taille du texte pour la deuxième ligne */
+  .h1-line:nth-child(2) {
+    font-size: 1em; 
     
   }
   
-  .h1-line-3 {
-    font-size: 1em; /* Taille du texte pour la troisième ligne */
-    
+  .h1-line:nth-child(3) {
+    font-size: 1em; 
+  
   }
-
-  .h1-line-4 {
-    font-size: 1em; /* Taille du texte pour la quatrième ligne */
-    
+  
+  .h1-line:nth-child(4) {
+    font-size: 1em; 
+  
   }
+  
 
   .social-links {
     align-items: center;
@@ -206,24 +202,24 @@
     margin-bottom: 0.1em; /* Espace entre chaque ligne */
   }
   
-  .h1-line-1 {
+  .h1-line:nth-child(1) {
     font-size: 1em; /* Taille du texte pour la première ligne */
     
   }
   
-  .h1-line-2 {
-    font-size: 1em; /* Taille du texte pour la deuxième ligne */
+  .h1-line:nth-child(2) {
+    font-size: 1em; 
     
   }
   
-  .h1-line-3 {
-    font-size: 1em; /* Taille du texte pour la troisième ligne */
-    
+  .h1-line:nth-child(3) {
+    font-size: 1em; 
+  
   }
-
-  .h1-line-4 {
-    font-size: 1em; /* Taille du texte pour la quatrième ligne */
-    
+  
+  .h1-line:nth-child(4) {
+    font-size: 1em; 
+  
   }
 
   .social-links {
@@ -245,24 +241,24 @@
     margin-bottom: 0.1em; /* Espace entre chaque ligne */
   }
   
-  .h1-line-1 {
+  .h1-line:nth-child(1) {
     font-size: 1em; /* Taille du texte pour la première ligne */
     
   }
   
-  .h1-line-2 {
-    font-size: 1em; /* Taille du texte pour la deuxième ligne */
+  .h1-line:nth-child(2) {
+    font-size: 1em; 
     
   }
   
-  .h1-line-3 {
-    font-size: 1em; /* Taille du texte pour la troisième ligne */
-    
+  .h1-line:nth-child(3) {
+    font-size: 1em; 
+  
   }
-
-  .h1-line-4 {
-    font-size: 1em; /* Taille du texte pour la quatrième ligne */
-    
+  
+  .h1-line:nth-child(4) {
+    font-size: 1em; 
+  
   }
 
   .social-links {
