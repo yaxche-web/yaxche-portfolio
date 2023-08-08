@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yaxche-portfolio/static/css/main.e4294273.css",
+    "main.js": "/yaxche-portfolio/static/js/main.a1fa837b.js",
+    "index.html": "/yaxche-portfolio/index.html",
+    "main.e4294273.css.map": "/yaxche-portfolio/static/css/main.e4294273.css.map",
+    "main.a1fa837b.js.map": "/yaxche-portfolio/static/js/main.a1fa837b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4294273.css",
+    "static/js/main.a1fa837b.js"
+  ]
+}
