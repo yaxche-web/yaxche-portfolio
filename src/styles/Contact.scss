@@ -1,10 +1,9 @@
-/* Ajoutez ce style à votre fichier CSS ou votre balise <style> dans le composant React */
 .formcont {
     width: 70%;
-    margin: 0 auto; /* Centre le formulaire horizontalement */
-    padding: 20px; /* Espacement intérieur pour plus d'espace autour du contenu */
-    border: 1px solid #ccc; /* Ajoute une bordure pour délimiter le formulaire */
-    border-radius: 5px; /* Ajoute des coins arrondis pour une apparence plus esthétique */
+    margin: 0 auto; /* Centre le form horizontalement */
+    padding: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
     
   .formcont form {
@@ -37,7 +36,7 @@
   
   .formcont textarea {
     resize: vertical; /* Empêche le redimensionnement horizontal du textarea */
-    max-height: 200px; /* Définit une hauteur maximale pour le textarea */
+    max-height: 200px; /* hauteur maximale pour le textarea */
   
   }
   
@@ -56,6 +55,5 @@
     box-shadow: inset 4.8px 4.8px 8px #E0E2E5, inset -4.8px -4.8px 8px #FCFEFF;
   }
   
-  /* Ajustement de l'espace à gauche et à droite des labels */
 
   
