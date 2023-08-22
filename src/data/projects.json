@@ -4,10 +4,10 @@
     "titre": "BOOKI",
     "image": "images/BOOKI.jpg",
     "techno": ["Html", "Css"],
-    "description": "BOOKI est une application web qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-    "problématique et solution": "J’ai rencontré quelques défis en utilisant Git et Github, mais j’ai pu simplifier le processus en utilisant Gitlens dans Visual Studio Code et en liant VSD (Visual Studio Code) à mon compte Github. L’utilisation de Flexbox pour la mise en page était parfois difficile, mais grâce à des fiches illustrées et à un entraînement, j’ai réussi à simplifier mon travail.",
-    "compétences développées": "L’utilisation de Flexbox m’a permis de découvrir les possibilités d’arrangement rapide des éléments dans un conteneur en utilisant la propriété « gap ».",
-    "githubLink": "https://github.com/yaxche-web/Booki"
+    "description": "BOOKI est une application web qui permet aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.",
+    "problematique_et_solution": "J’ai rencontré quelques défis en utilisant Git et Github, mais j’ai pu simplifier le processus en utilisant Gitlens dans Visual Studio Code et en liant VSD (Visual Studio Code) à mon compte Github. L’utilisation de Flexbox pour la mise en page était parfois difficile, mais grâce à des fiches illustrées et à un entraînement, j’ai réussi à simplifier mon travail.",
+    "competences_developpees": "L’utilisation de Flexbox m’a permis de découvrir les possibilités d’arrangement rapide des éléments dans un conteneur en utilisant la propriété « gap ».",
+    "lien_github": "https://github.com/yaxche-web/Booki"
   },
   {
     "id": 2,
@@ -15,9 +15,9 @@
     "image": "images/KASA.jpg",
     "techno": ["React"],
     "description": "KASA est une plateforme de location de logements entre particuliers.",
-    "problématique et solution": "Ce projet n’a pas présenté de difficultés majeures, car la logique des routes et des composants me rappelle ce que l’on peut trouver dans le constructeur Divi de Wordpress.",
-    "compétences développées": "Des projets plus clair, plus facile à faire évoluer.",
-    "githubLink": "https://github.com/yaxche-web/Kasa"
+    "problematique_et_solution": "Ce projet n’a pas présenté de difficultés majeures, car la logique des routes et des composants me rappelle ce que l’on peut trouver dans le constructeur Divi de Wordpress.",
+    "competences_developpees": "Des projets plus clairs, plus faciles à faire évoluer.",
+    "lien_github": "https://github.com/yaxche-web/Kasa"
   },
   {
     "id": 3,
@@ -25,8 +25,8 @@
     "image": "images/MVG.jpg",
     "techno": ["React", "Node.js", "MongoDB", "Api"],
     "description": "Mon vieux grimoire est un projet backend de gestion de livres, qui permet aux utilisateurs de créer des fiches grâce à des opérations CRUD (Create, Read, Update, Delete).",
-    "problématique et solution": "Le projet s’est déroulé sans grandes difficultés, même si le backend était complètement nouveau pour moi. J’ai trouvé une logique similaire à celle des projets React que j’apprécie tant. De plus, ce projet présente un grand intérêt, car les demandes de sites internet que l’on peut me faire correspondent pratiquement en tous points aux opérations mises en place. ",
-    "compétences développées": "Cela m’a permis d’accroître ma compréhension et de développer des compétences pertinentes pour répondre à ces demandes. En outre, ces « commandes de sites internet » seront un moyen d’étoffer mon portfolio avec des projets assez accessibles, faciles à prendre en main, mais complets dans les fonctions à mettre en place. Cela me permettra de démontrer mon savoir-faire tout en développant mes compétences en tant que développeur junior.",
-    "githubLink": "https://github.com/yaxche-web/Prjt7-Books"
+    "problematique_et_solution": "Le projet s’est déroulé sans grandes difficultés, même si le backend était complètement nouveau pour moi. J’ai trouvé une logique similaire à celle des projets React que j’apprécie tant. De plus, ce projet présente un grand intérêt, car les demandes de sites internet que l’on peut me faire correspondent pratiquement en tous points aux opérations mises en place.",
+    "competences_developpees": "Cela m’a permis d’accroître ma compréhension et de développer des compétences pertinentes pour répondre à ces demandes. En outre, ces « commandes de sites internet » seront un moyen d’étoffer mon portfolio avec des projets assez accessibles, faciles à prendre en main, mais complets dans les fonctions à mettre en place. Cela me permettra de démontrer mon savoir-faire tout en développant mes compétences en tant que développeur junior.",
+    "lien_github": "https://github.com/yaxche-web/Prjt7-Books"
   }
 ]
